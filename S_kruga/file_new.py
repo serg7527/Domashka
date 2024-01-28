@@ -10,5 +10,4 @@ Radius = (p-a)*(math.tan(A/2))
 def circle(Radius):  
     area = Radius** 2 * math.pi 
     return area
-#Radius = float(input("Введите радиус круга: "))
 print("Площадь круга: ", circle(Radius))
